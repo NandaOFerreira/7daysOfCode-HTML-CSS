@@ -1,0 +1,21 @@
+@import url("styles/header.css");
+
+:root {
+  --cinza-logo: #3a404e;
+  --cinza: #667085;
+  --branco: #ffffff;
+  --bordo: #8e2424;
+  --preto: #101828;
+  --fonte-principal: "Inter";
+  --fonte-secundario: "Josefin Sans";
+  --regular: 400;
+  --medium: 500;
+  --semi-bold: 600;
+}
+
+body {
+  background-color: var(--cor-de-fundo);
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  font-weight: var(--regular);
+}
