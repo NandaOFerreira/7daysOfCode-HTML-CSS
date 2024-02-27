@@ -1,4 +1,4 @@
-.cabecalho {
+.nav {
   font-weight: var(--medium);
   display: flex;
   margin: 1em 6em;
@@ -6,45 +6,45 @@
   justify-content: center;
 }
 
-.cabecalho__logo {
+.nav__logo {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-right: 6em;
 }
 
-.cabecalho__logo-imagem {
+.nav__logo-imagem {
   padding-right: 0.3em;
 }
 
-.cabecalho__logo-texto {
+.nav__logo-texto {
   color: var(--cinza-logo);
   font-size: 18px;
 }
 
-.cabecalho__páginas-lista {
+.nav__páginas-lista {
   display: flex;
 }
 
-.cabecalho__páginas-item {
+.nav__páginas-item {
   text-decoration: none;
   color: var(--cinza);
   padding: 0 0.5em;
 }
 
-.cabecalho__botoes {
+.nav__botoes {
   margin-left: auto;
   padding-right: 5em;
 }
 
-.cabecalho__botoes-entrar {
+.nav__botoes-entrar {
   background: transparent;
   color: var(--cinza);
   border: none;
   padding: 0.5em 1em;
 }
 
-.cabecalho__botoes-submit {
+.nav__botoes-submit {
   background: var(--bordo);
   color: var(--branco);
   border: none;
