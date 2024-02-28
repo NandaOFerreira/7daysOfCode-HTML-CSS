@@ -1,0 +1,34 @@
+.metricas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 80%;
+}
+
+.metricas__item {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0 0.5em;
+}
+
+.metrica__numero {
+  font-size: 60px;
+  font-weight: var(--semi-bold);
+  color: var(--bordo);
+  padding-bottom: 0.5em;
+}
+
+.metrica__descricao {
+  font-size: 18px;
+  font-weight: var(--medium);
+  color: var(--preto);
+  padding-bottom: 0.5em;
+}
+
+.metrica__texto {
+  font-weight: var(--regular);
+  color: var(--cinza);
+}
