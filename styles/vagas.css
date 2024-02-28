@@ -1,0 +1,38 @@
+.vagas {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5em 10em;
+}
+
+.vagas__abertas {
+  color: var(--bordo);
+  font-size: 14px;
+  font-weight: var(--medium);
+  background-color: rgba(var(--bordo-opacity-five-percent));
+  padding: 0.5em 1em;
+  border-radius: 24px;
+}
+
+.vagas__titulo {
+  color: var(--preto);
+  font-weight: var(--semi-bold);
+  font-size: 36px;
+  padding: 0.7em 0;
+}
+
+.vagas__texto {
+  color: var(--cinza);
+  font-weight: var(--regular);
+  font-size: 20px;
+  padding-bottom: 2em;
+}
+
+.vagas__imagem {
+  max-width: 100%;
+  height: auto;
+  background-color: red;
+  width: auto;
+  object-fit: contain;
+}

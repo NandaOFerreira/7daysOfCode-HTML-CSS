@@ -1,6 +1,7 @@
 @import url("styles/header.css");
 @import url("styles/nav.css");
 @import url("styles/metricas.css");
+@import url("styles/vagas.css");
 
 :root {
   --cinza-logo: #3a404e;
@@ -14,6 +15,7 @@
   --regular: 400;
   --medium: 500;
   --semi-bold: 600;
+  --bordo-opacity-five-percent: 142, 36, 36, 0.05;
 }
 
 body {
