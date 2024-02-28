@@ -1,4 +1,5 @@
 @import url("styles/header.css");
+@import url("styles/nav.css");
 
 :root {
   --cinza-logo: #3a404e;
@@ -6,6 +7,7 @@
   --branco: #ffffff;
   --bordo: #8e2424;
   --preto: #101828;
+  --preto-primario: #000000;
   --fonte-principal: "Inter";
   --fonte-secundario: "Josefin Sans";
   --regular: 400;

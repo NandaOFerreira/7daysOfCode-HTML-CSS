@@ -1,53 +1,33 @@
-.nav {
-  font-weight: var(--medium);
+.cabecalho {
   display: flex;
-  margin: 1em 6em;
-  align-items: center;
-  justify-content: center;
-}
-
-.nav__logo {
-  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-right: 6em;
+  padding: 4em 0em;
 }
 
-.nav__logo-imagem {
-  padding-right: 0.3em;
+.cabecalho__tag {
+  color: var(--bordo);
+  font-size: 16px;
+  font-weight: var(--semi-bold);
+  padding-bottom: 3em;
 }
 
-.nav__logo-texto {
-  color: var(--cinza-logo);
-  font-size: 18px;
+.cabecalho__titulo {
+  font-size: 48px;
+  font-weight: var(--semi-bold);
+  color: var(--preto);
+  padding-bottom: 1em;
+
+  text-shadow: -1px -1px 0 var(--preto-primario),
+    1px -1px 0 var(--preto-primario), -1px 1px 0 var(--preto-primario),
+    1px 1px 0 var(--preto-primario), 0px 4px 4px rgba(0, 0, 0, 0.25); /* Shadow */
 }
 
-.nav__páginas-lista {
-  display: flex;
-}
-
-.nav__páginas-item {
-  text-decoration: none;
+.cabecalho__texto {
   color: var(--cinza);
-  padding: 0 0.5em;
-}
-
-.nav__botoes {
-  margin-left: auto;
-  padding-right: 5em;
-}
-
-.nav__botoes-entrar {
-  background: transparent;
-  color: var(--cinza);
-  border: none;
-  padding: 0.5em 1em;
-}
-
-.nav__botoes-submit {
-  background: var(--bordo);
-  color: var(--branco);
-  border: none;
-  border-radius: 5px;
-  padding: 0.5em 1em;
+  font-size: 20px;
+  font-weight: var(--regular);
+  text-align: center;
+  width: 52%;
 }
