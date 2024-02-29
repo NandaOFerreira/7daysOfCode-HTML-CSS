@@ -1,0 +1,41 @@
+.depoimentos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(var(--bordo-opacity-five-percent));
+  border-radius: 8px;
+  padding: 3em 6em;
+  margin: 0 3em;
+  text-align: center;
+}
+
+.depoimentos__tag {
+  color: var(--bordo);
+  font-size: 14px;
+  font-weight: var(--semi-bold);
+  padding: 0.6em 0;
+}
+
+.depoimentos__titulo {
+  color: var(--preto);
+  font-size: 36px;
+  font-weight: var(--medium);
+  padding: 0.6em 0;
+}
+
+.depoimentos__colaboradora_nome {
+  color: var(--preto);
+  font-weight: var(--medium);
+}
+
+.depoimentos__colaboradora_cargo {
+  color: var(--cinza);
+  font-size: 14px;
+  font-weight: var(--regular);
+  padding: 0.6em 0;
+}
+
+.depoimentos__colaboradora {
+  padding: 0.6em 0;
+}

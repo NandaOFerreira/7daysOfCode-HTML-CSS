@@ -3,6 +3,7 @@
 @import url("styles/metricas.css");
 @import url("styles/vagas.css");
 @import url("styles/cargos.css");
+@import url("styles/depoimentos.css");
 
 :root {
   --cinza-logo: #3a404e;
