@@ -4,6 +4,7 @@
 @import url("styles/vagas.css");
 @import url("styles/cargos.css");
 @import url("styles/depoimentos.css");
+@import url("styles/contato.css");
 
 :root {
   --cinza-logo: #3a404e;
@@ -19,10 +20,13 @@
   --semi-bold: 600;
   --bordo-opacity-five-percent: 142, 36, 36, 0.05;
   --cinza-borda: #eaecf0;
+  --cinza-background: #f9fafb;
+  --cinza-medio: #98a2b3;
+  --cinza-borda-media: #d0d5dd;
 }
 
 body {
-  margin: 0 3em;
+  /* margin: 0 3em; */
   background-color: var(--cor-de-fundo);
   font-family: var(--fonte-principal);
   font-size: 16px;
