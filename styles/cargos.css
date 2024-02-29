@@ -1,0 +1,49 @@
+.cargos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item__titulo {
+  color: var(--preto);
+  font-size: 20px;
+  font-weight: var(--medium);
+}
+
+.descricao_titulo {
+  color: var(--preto);
+  font-size: 18px;
+  font-weight: var(--medium);
+  padding-bottom: 1.5em;
+}
+
+.texto__info {
+  color: var(--cinza);
+  font-weight: var(--medium);
+  padding-right: 1em;
+}
+
+.item-profissoes {
+  margin: 2em 0;
+}
+
+.categoria__item {
+  margin-bottom: 4em;
+}
+
+.profissao__descricao {
+  justify-content: flex-start;
+  flex-direction: column;
+  display: flex;
+  margin-bottom: 1em;
+  border: 1px solid var(--cinza-borda);
+  border-radius: 8px;
+  padding: 0.8em 35em 0.8em 0.8em;
+}
+
+.descricao__texto {
+  padding-top: 1em;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
